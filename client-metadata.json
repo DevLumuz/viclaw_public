@@ -1,0 +1,13 @@
+{
+  "client_id": "https://devlumuz.github.io/viclaw_public/client-metadata.json",
+  "client_name": "VICLAW",
+  "client_uri": "https://github.com/DevLumuz/viclaw_public",
+  "redirect_uris": [
+    "http://127.0.0.1:27420/callback",
+    "http://127.0.0.1:27421/callback",
+    "http://127.0.0.1:27422/callback"
+  ],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}
